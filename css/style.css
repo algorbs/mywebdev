@@ -474,15 +474,15 @@ width: 900px;
   padding: 25px 0 25px 0;
   display: flex;
   justify-content:space-between;
-  /* align-items: baseline; */
 } 
 .footer_i{
   width: 400px;
 }
 .footer_it{
+  display: flex;
+  align-items: center;
   padding-right: 160px;
   width: 400px;
-  align-items:center;
 }
 .footer_links{
   width: 400px;
@@ -492,11 +492,6 @@ width: 900px;
   align-items:center;
   padding-left: 160px;
   position: static;
-/* }
-.footer_list{
-  display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 .footer_link{
   font-size: 14px;
@@ -523,7 +518,6 @@ width: 900px;
   font-size: 14px;
   line-height: 24px;
   color: white;
-  text-decoration: none;
 }
 .footer_logo_link {
   display: flex;
