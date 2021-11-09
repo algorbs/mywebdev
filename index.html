@@ -7,6 +7,7 @@
     <title>Your life is WebDev</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script>new Sim()</script>
 </head>
 <body>
     <header class="header">
@@ -85,38 +86,19 @@
                 <h2 class="community_title">our community</h2>
                 <p class="community__subtitle">A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language</p>
             </div>
-            <div class="slider">
-                <div class="slider_conteiner">
-                    <div class="slider_track">    
-                        <!-- Первый слайд -->
-                        <div class="slider_item">
-                            <img src="./img/02.jpg">
-                        </div>
-                    
-                        <!-- Второй слайд -->
-                        <div class="slider_item">
-                            <img src="./img/03.jpg">
-                        </div>
-                    
-                        <!-- Третий слайд -->
-                        <div class="slider_item">
-                            <img src="./img/04.jpg">
-                        </div>
-
-                        <!-- Четвертый слайд -->
-                        <div class="slider_item">
-                            <img src="./img/05.jpg">
-                        </div>
-                    
-                        <!-- Пятый слайд -->
-                        <div class="slider_item">
-                            <img src="./img/01.jpg">
-                        </div> 
-                    </div>
+                <div class="sim-slider">
+                    <ul class="sim-slider-list">
+                        <li><img src="screen.gif" alt="screen"></li>    <!-- это экран -->
+                        <li class="sim-slider-element"><img src="./img/01.jpg" alt="1"></li>
+                        <li class="sim-slider-element"><img src="./img/02.jpg" alt="2"></li>
+                        <li class="sim-slider-element"><img src="./img/03.jpg" alt="3"></li>
+                        <li class="sim-slider-element"><img src="./img/04.jpg" alt="4"></li>
+                        <li class="sim-slider-element"><img src="./img/05.jpg" alt="5"></li>
+                    </ul>
+                    <div class="sim-slider-arrow-left"></div>
+                    <div class="sim-slider-arrow-right"></div>
+                    <div class="sim-slider-dots"></div>
                 </div>
-                <!-- Кнопки-стрелочки -->
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <a class="next" onclick="nextSlide()">&#10095;</a>
             </div>
 
         </section>     
@@ -162,7 +144,7 @@
                 </div>
             </div>
             <div class="footer_i">
-                <a href="/" class="footer_logo_link">
+                <a href="https://algorbs.github.io/mywebdev.github.io/" class="footer_logo_link">
                 <img src="./img/Vector.png" alt="Your life is WebDev"class="header_logo-pic">
                 </a>
             </div>
@@ -172,5 +154,6 @@
         </footer>
     </main>
     <script src="./script.js"></script>
+    <script src="sim-slider.js"></script>
 </body>
 </html>
